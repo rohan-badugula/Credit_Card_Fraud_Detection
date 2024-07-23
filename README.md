@@ -25,6 +25,8 @@ This repository contains a notebook for detecting fraud in financial transaction
 
    A bar plot is created to compare the counts of fraudulent and non-fraudulent transactions, helping to understand the class distribution in the dataset.
 
+![chart](images/img1.jpg)
+
 ## Data Cleaning
 
 1. **Checking for Missing Values**
@@ -47,6 +49,9 @@ This repository contains a notebook for detecting fraud in financial transaction
 
    The categorical variable 'type' is converted into numeric representation using label encoding.
 
+![chart](images/img2.jpg)
+
+
 ## Oversampling
 
 To address class imbalance, SMOTE (Synthetic Minority Over-sampling Technique) is used. This involves oversampling the minority class (fraudulent transactions) to achieve a balanced dataset with the majority class count.
@@ -68,3 +73,6 @@ To address class imbalance, SMOTE (Synthetic Minority Over-sampling Technique) i
 ## Results
 
 The performance of the models is evaluated using metrics such as the confusion matrix and the AUPRC score. These results provide insights into the effectiveness of the models in detecting fraudulent transactions.
+
+![chart](images/img3.jpg)
+
